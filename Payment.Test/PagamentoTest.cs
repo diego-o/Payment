@@ -1,4 +1,3 @@
-using Microsoft.Extensions.Configuration;
 using NUnit.Framework;
 using Payment.Infrastructure.Entities;
 using Payment.Service.Services.Persistence;

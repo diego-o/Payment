@@ -15,8 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Pagamento.Infrastructure\Payment.Infrastructure.csproj" />
-    <ProjectReference Include="..\Pagamento.Service\Payment.Service.csproj" />
+    <ProjectReference Include="..\Payment.Infrastructure\Payment.Infrastructure.csproj" />
+    <ProjectReference Include="..\Payment.Service\Payment.Service.csproj" />
   </ItemGroup>
 
   <ItemGroup>

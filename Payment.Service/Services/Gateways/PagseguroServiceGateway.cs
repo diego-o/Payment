@@ -1,9 +1,11 @@
 ﻿using System;
+using Payment.Infrastructure.CustomAttributes;
 using Payment.Infrastructure.Entities;
 using Payment.Service.Services.Gateways.Interfaces;
 
 namespace Payment.Service.Services.Gateways
 {
+    [ServiceGateway(TipoPagamento = TipoPagamento.Pagseguro)]
     internal class PagseguroServiceGateway : IServiceGateway
     {
         public Pagamento ConsultarRetornoPagamento(Pagamento pagamento)
